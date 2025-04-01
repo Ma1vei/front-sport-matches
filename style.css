@@ -1,0 +1,1126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+
+.header-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2a2a2a;
+}
+
+.wrapp-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    font-size: 12px;
+    margin-right: 24px;
+    transition: .25s;
+}
+
+.header-top-nav a:hover {
+    color: #64b000;
+}
+
+.header-top-registration {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header-midle {
+    background-color: #383838;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.wrapp-midle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrapp-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header-bottom {
+    background-color: #2a2a2a;
+}
+
+.language {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.hide-block-lang {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: #383838;
+    border-radius: 3px;
+    top: 27px;
+    box-shadow: 0 5px 10px 0 rgba(134, 142, 150, 0.1);
+}
+
+.hide-block-lang button {
+    color: white;
+    font-family: "Kanit", system-ui;
+    background-color: #383838;
+    padding: 3px 18px 3px 4px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+
+.registration-button {
+    color: white;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    font-size: 12px;
+    background-color: #64b000;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border: none;
+    transition: .25s;
+}
+.registration-button:hover {
+    background-color: #383838;
+}
+.account {
+    font-family: "Kanit", system-ui;
+    background-color: inherit;
+    border: none;
+    font-weight: 500;
+    transition: .25s;
+}
+.account:hover {
+    color: #64b000 !important;
+}
+.hoverblock {
+    color: white;
+    transition: .25s;
+}
+.hoverblock:hover {
+    color: #64b000;
+}
+.input {
+    width: 30%;
+}
+.input input{
+    background-color: #484848;
+    border-radius: 3px;
+    padding: 17px 19px;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.input input::placeholder {
+    color: #707279;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.header-bottom-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", system-ui;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 40px;
+    transition: .25s;
+}
+.header-bottom-nav a:hover {
+    color: #64b000;
+}
+.active-page {
+    color: #64b000 !important;
+}
+.header-bottom-links a {
+    margin-left: 20px;
+}
+.sections {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.section {
+    text-align: center;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    border-right: 1px solid #e1e1e1;
+}
+.section:last-child {
+    border: 0;
+}
+.active-button {
+    background-color: #ff4f2e !important;
+    color: white !important;
+}
+.favorite {
+    visibility: hidden;
+    opacity: 0;
+    transition: 1s;
+    display: none;
+}
+body {
+    background-color: white;
+}
+.header-section {
+    background-image: url(img/icons.png);
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 25px;
+    opacity: .38;
+    transition: .25s;
+    margin-bottom: 5px;
+}
+.header-text p{
+    font-family: "Kanit", system-ui;
+    font-size: 12px;
+    color: #151515;
+    opacity: .38;
+    font-weight: 600;
+    transition: .25s;
+}
+.section1:hover p {
+    opacity: 1;
+}
+.section1:hover .header-section {
+    opacity: 1;
+}
+.section2:hover p {
+    opacity: 1;
+}
+.section2:hover .header-section {
+    opacity: 1;
+}
+.section3:hover .header-section {
+    opacity: 1;
+}
+.section3:hover p {
+    opacity: 1;
+}
+.section4:hover .header-section {
+    opacity: 1;
+}
+.section4:hover p {
+    opacity: 1;
+}
+.section5:hover p {
+    opacity: 1;
+}
+.section5:hover .header-section {
+    opacity: 1;
+}
+.section6:hover p {
+    opacity: 1;
+}
+.section6:hover .header-section {
+    opacity: 1;
+}
+.section7:hover .header-section {
+    opacity: 1;
+}
+.section7:hover p {
+    opacity: 1;
+}
+.section8:hover p {
+    opacity: 1;
+}
+.section8:hover .header-section {
+    opacity: 1;
+}
+.section9:hover p {
+    opacity: 1;
+}
+.section9:hover .header-section {
+    opacity: 1;
+}
+.section10:hover p {
+    opacity: 1;
+}
+.section10:hover .header-section {
+    opacity: 1;
+}
+.tittle-sport-page {
+    background-color: #2a2a2a;
+    padding: 15px 28px;
+    margin-top: 25px;
+    position: relative;
+}
+.black-block {
+    position: absolute;
+    left: 3.55vw;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    background-color: #2a2a2a;
+    transform: rotate(45deg);
+}
+.tittle-sport-page p {
+    font-family: "Kanit", system-ui;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+}
+.sectiont-theme-block-football {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 11px;
+}
+.sectiont-theme-block-football h2 {
+    padding-left: 15px;
+    color: #151515;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    font-size: 18px;
+    border-left: 4px solid #64b000;
+}
+
+.time-filter button {
+    background-color: inherit;
+    border: 1px solid #e1e1e1;
+    padding: 6px 14px;
+    font-weight: 600;
+    font-family: "Kanit", system-ui;
+    font-size: 12px;
+    border-radius: 3px;
+    margin-left: 20px;
+    transition: .25s;
+}
+.section-theme-main-main {
+    justify-content: center !important;
+}
+.left-sect .pos-goals-persent {
+    width: 54%;
+    height: 10px;
+    background-color: #64b000;
+}
+.left-sect .power{
+    width: 99%;
+    height: 10px;
+    background-color: #64b000;
+}
+@media(max-width: 1090px) {
+    .cent-select {
+        width: 50% !important;
+    }
+    .left-sect img {
+        width: 200px;
+        bottom: -70px !important;
+    }
+    .right-sect img {
+        width: 200px;
+        bottom: -70px !important;
+    }
+}
+@media(max-width: 660px) {
+    .left-sect img {
+        width: 200px;
+        bottom: -70px !important;
+        left: -60px !important;
+    }
+    .right-sect img {
+        width: 200px;
+        bottom: -70px !important;
+        right: -60px !important;
+    }
+}
+@media(max-width: 440px) {
+    .left-sect img {
+        display: none;
+    }
+    .right-sect img {
+        display: none;
+    }
+    .cent-select {
+        width: 230% !important;
+    }
+}
+.right-sect {
+    display: flex;
+    justify-content: ;
+    align-items: end;
+    width: 50% !important;
+    flex-direction: column;
+}
+.right-sect .pos-goals-persent {
+    background-color: #ff4f2e !important;
+    width: 74%;
+    height: 10px;
+}
+.right-sect .power {
+    background-color: #ff4f2e !important;
+    width: 99%;
+    height: 10px;
+}
+.hidden span {
+    font-size: 23px;
+}
+.right-sect span {
+    color: #ff4f2e !important;
+}
+.fts-left span{
+    color: #64b000;
+    font-size: 24px;
+}
+.fts-right  span{
+    color: #ff4f2e;
+    font-size: 24px;
+}
+.left-sect {
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    width: 50% !important;
+    flex-direction: column;
+}
+.time-filter button:hover {
+    background-color: #ff4f2e;
+    border: 1px solid #ff4f2e;
+    color: white;
+}
+.active-time-button {
+    background-color: #ff4f2e !important;
+    border: 1px solid #ff4f2e !important;
+    color: white;
+}
+.section-theme-main-header {
+    padding: 12px 23px 8px 23px;
+    background-color: #616161;
+}
+.section-theme-main-main {
+    background-color: white;
+    padding: 11px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.section-theme-main-header h3 {
+    font-size: 14px;
+    color: white;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.img-section-theme {
+    background-image: url(img/icons.png);
+    background-repeat: no-repeat;
+    height: 33px;
+}
+.team-name-scorre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+}
+.team-name p {
+    font-size: 14px;
+    color: #151515;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.scorre {
+    padding-right: 15px;
+    border-right: 1px solid #e1e1e1;
+}
+.scorre p {
+    color: #64b000;
+    font-family: "Kanit", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+}
+.bet {
+    width: 25%;
+    background-color: #eaecee;
+    color: #151515;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family: "Roboto", sans-serif;
+    transition: .25s;
+}
+.bet:hover {
+    background-color: #64b000;
+    color: white !important;
+}
+.bet span {
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.last {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.last p {
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    color: #151515;
+    font-size: 14px;
+}
+.last span {
+    font-family: "Kanit", system-ui;
+    font-size: 18px;
+    margin-left: 10px;
+    color: #a5a5a5;
+    font-weight: 500;
+}
+footer {
+    background-color: #383838;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.header-footer h2 {
+    font-family: "Kanit", system-ui;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.header-footer form {
+    width: 100%;
+    position: relative;
+}
+.header-footer form input {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+    font-size: 44px;
+    color: #9b9b9b;
+    font-family: "Kanit", system-ui;
+}
+.header-footer form input::placeholder {
+    font-size: 44px;
+    font-family: "Kanit", system-ui;
+    color: rgba(255, 255, 255, 0.15);
+    text-transform: uppercase;
+    
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.left-main-footer {
+    width: 37%;
+}
+.first-block p {
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.second-block {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.second-block h3{
+    color: white;
+    opacity: .2;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.second-block a {
+    text-decoration: none;
+    color: white;
+    transition: .25s;
+    font-family: "Kanit", system-ui;
+    font-size: 14px;
+    font-weight: 400;
+}
+.second-block a:hover {
+    color: #64b000;
+}
+.third-block a {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #565656;
+    border-radius: 3px;
+    margin-right: 15px;
+}
+.third-block button {
+    background-color: inherit;
+    border: 2px solid white;
+    color: white;
+    border-radius: 3px;
+    font-family: "Kanit", system-ui;
+    font-size: 12px;
+    padding: 9px 30px;
+    font-weight: 600;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.footer-footer {
+    background-color: #2a2a2a;
+    padding: 20px 0;
+}
+.div {
+    display: flex;
+    justify-content: space-between;
+}
+.div p {
+    font-family: "Kanit", system-ui;
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: uppercase;
+   color: rgba(255, 255, 255, 0.2); 
+}
+.div a {
+    font-family: "Kanit", system-ui;
+   font-size: 12px;
+   font-weight: 500;
+   text-transform: uppercase;
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.2); 
+   margin-left: 40px;
+   transition: .25s;
+}
+.div span {
+    border-bottom: 1px solid #64b000;
+    cursor: pointer;
+    transition: .50s;
+}
+.div span:hover {
+    border-bottom: none;
+    color: #64b000;
+}
+.div a:hover {
+    color: #64b000;
+}
+.active-footer {
+    color: #64b000 !important;
+}
+.section3 label p {
+    font-family: "Kanit", system-ui;
+    font-size: 18px;
+    color: #151515;
+    font-weight: 600;
+    transition: .25s;
+    margin-right: 10px;
+    opacity: .5;
+}
+.section3 label p:hover {
+    opacity: 1;
+}
+.section3 label:hover .fake{
+    border: 1px solid #151515 !important;
+}
+.section3 .fake {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #9b9b9b;
+    transition: .25s;
+    border-radius: 3px;
+    position: relative;
+}
+.section3 .fake::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 2px;
+    left: 1.5px;
+    background-image: url(img/football\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    transition: .25s;
+}
+.section3 input:checked + .fake::after {
+    opacity: 1;
+}
+
+.section2 label p {
+    font-family: "Kanit", system-ui;
+    font-size: 18px;
+    color: #151515;
+    font-weight: 600;
+    transition: .25s;
+    margin-right: 10px;
+    opacity: .5;
+}
+.section2 label p:hover {
+    opacity: 1;
+}
+.section2 label:hover .fake{
+    border: 1px solid #151515 !important;
+}
+.section2 .fake {
+    width: 21px;
+    height: 20px;
+    border: 1px solid #9b9b9b;
+    transition: .25s;
+    border-radius: 3px;
+    position: relative;
+}
+.section2 .fake::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    display: block;
+    z-index: 1;
+    top: 2px;
+    left: 1.5px;
+    background-image: url(img/football\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0;
+    transition: .25s;
+}
+.section2 input:checked + .fake::after {
+    opacity: 1;
+}
+.country-name {
+    margin-right: 20px;
+    margin-top: -7px;
+}
+.country-name p {
+    font-size: 12px;
+    color: #151515;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+
+
+.pagination a {
+    font-size: 14px;
+    color: #151515;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    float: left;
+    padding:  8px 14px;
+    text-decoration: none;
+  }
+  .pagination a.active {
+    background-color: #64b000;
+    color: white;
+    /*Thiết kế hình tròn With CSS*/
+    border-radius: 50%;
+  }
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 50%;
+  }
+
+  .sections-color label p {
+    opacity: 1 !important;
+  }
+  .sections-color .section {
+    border-right: none !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-right: 0 !important;
+  }
+.match-title h1{
+    font-size: 30px;
+    color: #2a2a2a;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.match-title p {
+    font-size: 18px;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.left-sect {
+    font-size: 19px;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    color: #616161;
+}
+.right-sect {
+    font-size: 19px;
+    color: #616161;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.cent-select {
+    font-size: 19px;
+    color: #616161;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.hidden {
+    display: none;
+    transition: .5s;
+}
+.vis {
+    display: block;
+}
+.hidden .section-theme-main-main {
+    padding: 11px 80px !important;
+}
+.hidden span {
+    color: #64b000;
+}
+.team-name-scorre {
+    cursor: pointer;
+}
+@media(max-width: 840px) {
+    .section-theme-main-main {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+    .lft-sec {
+        width: 100% !important;
+    }
+    .rght-sec {
+        width: 100% !important;
+    }
+    .bet {
+        margin-left: 0;
+        width: 23%;
+        margin-top: 15px;
+    }
+    .input {
+        width: 45%;
+    }
+    .hidden .section-theme-main-main {
+        padding: 6px 0px !important;
+    }
+    .left-sect {
+        width: 43% !important;
+    }
+    .right-sect {
+        width: 43% !important;
+    }
+}
+@media(max-width:1015px) {
+    .sections-color {
+        flex-direction: column;
+    }
+    .hid-l {
+        width: 100% !important;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #9b9b9b;
+    }
+    .hid-r {
+        width: 100% !important;
+    }
+}
+.burg {
+    display: none !important; 
+}
+@media(max-width: 830px) {
+    .header-midle {
+        display: none;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .o {
+        display: none !important;
+    }
+    .burg {
+        display: block !important;
+    }
+    .header-top-nav {
+        display: none ;
+    }
+}
+body {
+    position: relative;
+}
+.burger-menu {
+    position: absolute;
+    width: 60vw; padding: 40px; position: absolute; z-index: 100;
+    background-color: #2a2a2a;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+}
+@media(max-width: 600px) {
+    .burger-menu {
+        width: 90vw;
+    }
+    .left-main-footer {
+        width: 100%;
+    }
+    .match-title h1 {
+        font-size: 24px;1
+    }
+    .container {
+        max-width: 96% ;
+    }
+    .bet {
+        padding: 3px;
+    }
+}
+@media(max-width: 400px) {
+    .section3 label p {
+        font-size: 12px;
+    }
+    .section {
+        padding: 0;
+        border: none;
+    }
+    .match-title h1 {
+        font-size: 20px;
+    }
+    .match-title p {
+        font-size: 14px;
+    }
+}
+
+.section3 button {
+    background-color: inherit;
+    border: 1px solid #e1e1e1;
+    padding: 9px 17px;
+    color: #151515;
+    font-size: 14px;
+    font-family: "Kanit", system-ui;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: .25s;
+}
+.section3 button:hover {
+    background-color: #ff4f2e;
+    color: white;
+    border-color: #ff4f2e;
+}
+
+.visi {
+    display: block;
+}
+.section-theme-main-main {
+    cursor: pointer;
+}
+.section-theme-main._active > .hidden {
+    display: block !important;
+}
+
+
+.header-section-theme-main{
+    border: 1px solid #e1e1e1;
+    border-right: none;
+}
+.header-section-theme-main h2 {
+    color: #151515;
+    font-size: 14px;
+    font-family: "Kanit", system-ui;
+    font-weight: 600;
+}
+.header-section-theme-main .characteristic {
+    border-right: 1px solid #e1e1e1;
+    padding: 10px 20px;
+}
+.header-section-theme-main .name1 {
+    border-right: 1px solid #e1e1e1;
+    padding: 10px 20px;
+}
+.header-section-theme-main .name2 {
+    padding: 10px 20px;
+    border-right: 1px solid #e1e1e1;
+}
+@media(max-width: 860px) {
+    .header-section-theme-main {
+        flex-direction: column;
+    }
+    .header-section-theme-main div {
+        width: 100% !important;
+    }
+    .dabl {
+        display: none !important;
+    }
+    .characteristic {
+       background-color: #e1e1e145;
+    }
+    .wht {
+        background-color: inherit !important;
+    }
+}
+.center-section {
+    font-size: 16px;
+    color: #616161;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.score {
+    width: 50px;
+    height: 20px;
+    border: 1px solid #a5a5a5;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eaecee;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+}
+.grn {
+    background-color: #64b000;
+    border: none;
+    margin-right: 3px;
+}
+.rd {
+    background-color: #ff5c51;
+    border: none;
+    margin-right: 3px;
+}
+.org {
+    background-color: #ffa200;
+    border: none;
+    margin-right: 3px;
+}
+.right-team-block p{
+    font-size: 20px;
+    color: #454444;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 28px;
+    color: #303030;
+    font-family: "Kanit", system-ui;
+    font-weight: 600;
+}
+.left-team-block p{
+    font-size: 20px;
+    color: #454444;
+    font-family: "Kanit", system-ui;
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media(max-width: 1027px) {
+    .left-team-block img {
+        width: 200px !important;
+    }
+    .right-team-block img {
+        width: 200px !important;
+    }
+    .right-team-block p{
+        font-size: 14px;
+    }
+    .left-team-block p{
+        font-size: 14px;
+    }
+    .left-team-block {
+        left: -40px !important;
+    }
+    .right-team-block {
+        right: -40px !important;
+    }
+    .center-section {
+        width: 45% !important;
+    }
+}
+.left-team-block {
+    top: 28% !important;
+}
+.right-team-block {
+    top: 28% !important;
+}
+.hidden {
+    padding-bottom: 40px;
+}
+@media(max-width: 910px) {
+    .center-section {
+        width: 30% !important;
+    }
+    .left-team-block {
+        left: -40px !important;
+    }
+    .right-team-block {
+        right: -40px !important;
+    }
+    .left-team-block img {
+        width: 200px !important;
+    }
+    .right-team-block img {
+        width: 200px !important;
+    }
+}
+@media(max-width: 650px) {
+    .center-section {
+        width: 57% !important;
+    }
+    .match-title {
+        margin-bottom: 10px !important;
+    }
+    .h1 {
+        font-size: 18px;
+        margin: 0 !important;
+        margin-bottom: 10px !important;
+    }
+    .left-team-block {
+        display: none !important;
+    }
+    .right-team-block {
+        display: none !important;
+    }
+    .match-title {
+        display: flex !important;
+    }
+    .center-section {
+        font-size: 14px !important;
+    }
+    .score {
+        width: 30px !important;
+        height: 20px !important;
+    }
+    .match-title h1 {
+        font-size: 16px !important;
+    }
+    .match-title img {
+        width: 30px !important;
+    }
+}
