@@ -16,13 +16,3 @@
 - CSS
 - JavaScript
 
-## Запуск
-
-Откройте `index.html` в браузере или запустите локальный сервер:
-
-```bash
-python3 -m http.server 8000
-```
-
-Проект доступен по адресу `http://localhost:8000`.
-
